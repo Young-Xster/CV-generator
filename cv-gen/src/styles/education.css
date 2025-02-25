@@ -1,0 +1,21 @@
+.education{
+    padding-left: 1rem;
+    gap: 1rem;
+}
+
+.educationLi{
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    >:first-child{
+        font-weight: 1000;
+        font-style: normal;
+    }
+    > :nth-child(2){
+        justify-self: end;
+    }
+    >:last-child{
+        font-style: normal;
+        color: var(--changing-color);
+    }
+}

@@ -1,0 +1,10 @@
+.work-list-item{
+    display: grid;
+    grid-template-columns: repeat(2 , min-content);
+    > :nth-child(3){
+        grid-column: 1/-1;
+    }
+}
+.work-list-changers{
+    gap: 1.5rem;
+}

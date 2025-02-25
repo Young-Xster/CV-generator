@@ -1,0 +1,21 @@
+.work-item{
+    display: grid;
+    grid-template-columns: 1fr max-content;
+    > .date-container{
+        grid-column: 2/3;
+        grid-row: 1/3;
+    }
+    > :first-child{
+        font-style: normal;
+        font-weight: 1000;
+    }
+    >:last-child{
+        grid-column: 1/-1;
+        margin: 0.1rem;
+        font-style: normal;
+    }
+}
+
+.work-list{
+    padding-left: 1rem;
+}
